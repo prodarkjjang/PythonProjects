@@ -1,4 +1,4 @@
-#13 
+#13 learn a little about xmlrpc i guess
 # no idea at all - check hints directly, turns out its xmlrpc module (installed in py3)
 # RPC stands for remote procedure call, we use xmlrpc.client
 # get the method and phone Bert (we found that Bert is evil in previous stages)

@@ -1,4 +1,4 @@
-# 14
+# 14 learn about iterating in directions
 # <!-- remember: 100*100 = (100+99+99+98) + (...  -->
 # <img src="wire.png" width="100" height="100">
 # Found out that 100 * 100 = (100*99) + 100 = (99*99) + 100 + 99 = ...
