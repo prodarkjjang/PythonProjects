@@ -21,3 +21,23 @@ w, h = im.size
 # im2.show() 
 
 v = [(1, 0), (0, -1), (-1, 0), (0, 1)]
+
+s = 0
+length = 100
+count = 0
+cur = [-1, 0]
+minus = True
+
+while length:
+    for i in range(length):
+        cur = [x + y for x, y in zip(cur, v[s])]
+        pixel = im.getpixel((count, 0))
+        im2.putpixel(cur, pixel)
+        count += 1
+    s = (s + 1) % 4
+    
+    if minus:
+        length -= 1
+    minus = not minus
+
+im2.show()
