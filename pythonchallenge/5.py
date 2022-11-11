@@ -1,6 +1,7 @@
-#5 
+#5 learn pickle function and extract image
 # assume something to do with peak - a value bigger than neighbor
 # peak hell sounds familiar?? found banner.p - turns out its 'pickle'
+# should i use numpy or matplotlib here to iterate faster?
 
 import requests
 import pickle
@@ -20,6 +21,5 @@ row = ""
 for i in unload:
     for sec in i:
         row += sec[0] * sec[1]
-
     print(row)
     row = ""
